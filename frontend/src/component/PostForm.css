@@ -1,0 +1,32 @@
+.post-container {
+    max-width: 600px;
+    margin: auto;
+    margin-top: 200px;
+    padding: 20px;
+    border: #000000 solid 2px;
+    width: auto;
+}
+
+
+.post-list {
+    list-style: decimal inside;
+    padding: 0;
+}
+
+.post-item {
+    background: #f8f8f8;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 8px;
+    transition: transform 0.2s ease;
+}
+
+.post-item:hover {
+    transform: translateY(-2px);
+    background: #f0f0f0;
+}
+
+.error {
+    color: red;
+    margin-bottom: 10px;
+}
