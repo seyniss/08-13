@@ -11,7 +11,7 @@ const postSchema = new mongoose.Schema(
             type:String,
             require:true,
         },
-        auther:{
+        author:{
             type:String,
             default:"익명"
         }
