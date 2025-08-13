@@ -17,8 +17,8 @@ mongoose.connect(process.env.MONGO_URI)
 
 
 
-const bookRoutes = require("./routes/bookRoutes")
-app.use("/api/posts",bookRoutes)
+const postRoutes = require("./routes/postRoutes")
+app.use("/api/posts",postRoutes)
   
 app.get('/',(req,res)=>{
     res.send("Hello Express!")
